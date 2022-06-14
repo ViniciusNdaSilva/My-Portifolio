@@ -18,7 +18,7 @@ body {
     background-image: url(img/foto\ site\ .png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
