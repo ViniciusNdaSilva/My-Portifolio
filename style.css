@@ -36,11 +36,11 @@ main {
 }
 
 .container {
-    padding: 70px;
+    width: 100%;
 }
 
 .imagen {
-    padding: 30px;
+    width: 100%;
 }
 
 .minhas-paginas {    
