@@ -14,6 +14,12 @@
     display: inline;
 }
 
+.menu-horizontal li a {
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
 img {
     width: 400px;
 }
@@ -37,11 +43,14 @@ main {
     padding: 30px;
 }
 
-a {
-    text-decoration: none;
-    border: solid 1px white;
+.minhas-paginas {    
     margin: 20px;
     padding: 5px;
+}
+
+.minhas-paginas a {
+    border: solid 1px white;
+    text-decoration: none;
 }
 
 a:hover {
