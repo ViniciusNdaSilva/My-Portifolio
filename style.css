@@ -1,67 +1,9 @@
 @charset "UTF-8";
 
-* {
-    background-color: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
-.menu-horizontal {
-    list-style: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Ruda:wght@600&display=swap');
 
-.menu-horizontal li {
-    display: inline;
+.container {
+    background-image: url(img/incone\ git.png);
 }
-
-.menu-horizontal li a {
-    padding: 20px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-img {
-    width: 400px;
-}
-
-body {
-    height: 00vh;
-    width: 100vh;
-    margin: 0px auto 0px auto;
-}
-
-main {
-    display: flex;
-    align-items: center;
-}
-
-.texto {
-    width: 100%;
-    text-shadow: 1px 1px 2px white;
-    
-}
-
-.imagen {
-    width: 100%;
-}
-
-.minhas-paginas {    
-    margin: 20px;
-    padding: 5px;
-}
-
-.minhas-paginas a {
-    border: solid 1px white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-    background-color: white;
-    transition: 0,9s;
-}
-
-h1, h2 {
-    margin: 20px 0px 20px 0px;
-}
-
