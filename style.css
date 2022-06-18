@@ -4,6 +4,70 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Ruda:wght@600&display=swap');
 
+nav {
+    padding: 10px;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8000;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: bold
+}
+
+ul {
+    margin: 0;
+}
+
+a:hover {
+    color: white;
+}
+
 .container {
-    background-image: url(img/incone\ git.png);
+    background-image: url(img/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.fontes {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+h2 {
+    padding-left: 114px;
+    font-weight: normal;
+}
+
+.logo1, .logo2 {
+    padding-left: 20px;
+    width: 50px;
+    padding-top: 10px;
+}
+
+.logo1 {
+    padding-left: 190px;
 }
